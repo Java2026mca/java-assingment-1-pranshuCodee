@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         
-        // Read matrix A
+        
         int[][] A = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -13,7 +13,7 @@ public class Main {
             }
         }
         
-        // Read matrix B
+    
         int[][] B = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -21,7 +21,7 @@ public class Main {
             }
         }
         
-        // Multiply matrices: C = A × B
+    
         int[][] C = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -31,7 +31,7 @@ public class Main {
             }
         }
         
-        // Print result matrix C
+        
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.print(C[i][j] + (j < n - 1 ? " " : ""));
