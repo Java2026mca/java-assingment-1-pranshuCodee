@@ -40,5 +40,4 @@ public class Main {
         // Input: rectangle 4 6 → Output: Area: 24.00
         // Input: triangle 3 4 5→ Output: Area: 6.00
 
-    }
-}
+
